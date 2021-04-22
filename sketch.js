@@ -1,4 +1,4 @@
-let phrase = promt("Please input a phrase");
+let phrase;
 
 let popSize = 150;
 let population = [];
@@ -13,7 +13,7 @@ let font;
 
 function setup() {
   createCanvas(1920, 300);
-  // phrase = prompt("Please enter phrase: ");
+  phrase = prompt("Please enter phrase: ");
   
   for (let i=0;i<popSize;i++){
     let genes = randomString(phrase.length);
