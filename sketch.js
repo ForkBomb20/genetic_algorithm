@@ -1,4 +1,4 @@
-let phrase = promt("Please input a phrase")
+let phrase = promt("Please input a phrase");
 
 let popSize = 150;
 let population = [];
